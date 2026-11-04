@@ -8,13 +8,14 @@ title: Project 1
 
 ## 1. Introduction
 
-Describe the project idea, its purpose, and the main objectives.
+The purpose of this project was to make a car seat belt warning system using VHDL. The system checks if someone is sitting in the seat and if they have their seat belt on. If an adult is sitting in the seat without wearing their seatbelt, a beeper and red LED turn on to warn the driver.
 
 ## 2. Design
 
-Explain the overall system design, including the major functional blocks and how they interact.
+The design uses four inputs: door status, key status, seat pressure, and seat belt status. These inputs are used to decide when the warning light should turn on. I started by making a truth table to show the different input combinations and when the warning light should be activated. I then used a Karnaugh map to simplify the Boolean expression. After that, I used the simplified expression to build the logic circuit in VHDL. The warning light turns on when the key is in and the door is open, or when the key is in, someone is sitting in the seat, and the seat belt is not fastened.
 
-Include a labelled block diagram showing the system architecture.
+Block diagram showing system architecture:
+<img width="870" height="376" alt="image" src="https://github.com/user-attachments/assets/011ecd05-9e91-4887-9c7a-5938c06d0d83" />
 
 ## 3. Code
 
