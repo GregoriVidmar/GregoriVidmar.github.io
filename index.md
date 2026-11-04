@@ -1,15 +1,23 @@
-# Digital Systems Design Portfolio
+# Advanced Digital and Embedded Systems
 
-**Name:** [First Name]  
-**Course/Section:** [Course and section]  
+## Project Portfolio
 
-This portfolio documents four digital systems design projects, including design, VHDL source code, simulation verification, FPGA implementation and reflection.
+**Name:** Gregori Vidmar
+
+**Course:** ELIC329 – Advanced Digital and Embedded Systems
+
+This portfolio documents four digital systems design projects completed throughout the course. Each project includes the design process, VHDL source code, simulation results, FPGA hardware implementation, resource utilization, and reflection.
 
 ## Project Reports
 
-1. [Project 1 — Add title](projects/project1.html)
-2. [Project 2 — Add title](projects/project2.html)
-3. [Project 3 — Add title](projects/project3.html)
-4. [Project 4 — Add title](projects/project4.html)
+1. [Project 1 – Car Warning Light](projects/project1.html)
 
-> Replace all bracketed placeholders with your own content. See the repository README for instructions.
+2. [Project 2 – Event Counter](projects/project2.html)
+
+3. [Project 3 – Stepper Motor Control](projects/project3.html)
+
+4. [Project 4 – Mini-project 4](projects/project4.html)
+
+---
+
+Each project documents the design, implementation, testing, challenges, and skills developed throughout the course.
