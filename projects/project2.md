@@ -47,9 +47,9 @@ Shows how the different VHDL modules are connected.
 Shows how the VHDL design was converted into FPGA components.
 
 - **Implementation:**
-<img width="835" height="564" alt="image" src="https://github.com/user-attachments/assets/e0844c98-ad59-4efb-bf0c-28d00d50b2b3" />
+<img width="349" height="541" alt="image" src="https://github.com/user-attachments/assets/cd3cd000-3021-416b-885e-b8603f344727" />
 
-Shows the design after FPGA implementation, including the connections to the physical FPGA pins.
+Shows the final layout of the design after it was implemented on the FPGA. It shows how the different components were placed on the Basys 3 board.
   
 - **Resource utilization:** FPGA resource usage
 <img width="753" height="123" alt="image" src="https://github.com/user-attachments/assets/078fa7ce-c21a-4bb7-b3c0-bdfc9c5d24bd" />
