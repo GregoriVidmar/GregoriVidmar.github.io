@@ -8,11 +8,14 @@ title: Project 2
 
 ## 1. Introduction
 
-Describe the project idea, its purpose, and the main objectives.
+The purpose of this project was to make an event counter using VHDL on the Basys3 board. The counter goes from 0 to F and displays the count on a seven-segment display and the LEDs. I used a clock divider to slow down the clock so the counter would change at a rate that is easier to see. The goal was to connect the different VHDL components together and get the counter working on the board.
+
 
 ## 2. Design
 
-Explain the overall system design, including the major functional blocks and how they interact.
+The design uses a clock, a button debounce circuit, a counter, and a seven-segment display. The button debounce makes sure that each button press is only counted once. The counter increases by one each time the button is pressed, and the display and LEDs show the current count.
+<img width="939" height="490" alt="image" src="https://github.com/user-attachments/assets/9d5d15a9-3e24-4a73-8140-9b005aa6b7be" />
+
 
 Include a labelled block diagram showing the system architecture.
 
