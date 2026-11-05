@@ -16,30 +16,33 @@ The purpose of this project was to make an event counter using VHDL on the Basys
 The design uses a clock, a button debounce circuit, a counter, and a seven-segment display. The button debounce makes sure that each button press is only counted once. The counter increases by one each time the button is pressed, and the display and LEDs show the current count.
 <img width="939" height="490" alt="image" src="https://github.com/user-attachments/assets/9d5d15a9-3e24-4a73-8140-9b005aa6b7be" />
 
-
-Include a labelled block diagram showing the system architecture.
-
 ## 3. Code
 
-Explain the key sections of your VHDL code and how they implement the required functionality.
+The design uses a few different VHDL modules that work together to make the counter function properly. The button debounce module makes sure button presses are detected correctly. The counter keeps track of the count and the seven segment decoder converts the count into a value that can be displayed. The main display module connects everything together and controls what appears in the displays and LEDS.
 
 Provide links to the relevant design files:
 
-- **Design source:** [Link]
-- **Testbench:** [Link]
+- **Design source:**
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project2/button_debounce.vhd
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project2/count_display.vhd
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/hex_7seg.vhd
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/modMcounter.vhd
+  
+- **Testbench:**
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/count_display_tb.vhd
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/modMcounter_tb.vhd
+  
 - **Constraints (XDC):** [Link]
-
-Include relevant code snippets where appropriate.
+https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/lab7.xdc
 
 ## 4. Simulation
 
 Present simulation waveforms covering all required test scenarios.
 
-For each scenario, explain:
-- What was tested
-- Expected behaviour
-- Observed results
-- Any discrepancies and their resolution
+Vivado was used to test the counter and display to make sure they work correctly.
+
+Test 1: 
+The counter was tested to make sure it counts correctly and resets after reaching its limit. It was expected to follow the correct counting sequence as shown above.
 
 ## 5. Hardware
 
