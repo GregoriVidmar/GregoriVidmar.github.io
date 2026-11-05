@@ -14,25 +14,29 @@ The design uses a clock divider and an FSM to control the stepper motor. The clo
 
 ## 3. Code
 
-Explain the key sections of your VHDL code and how they implement the required functionality.
+The design uses a clock divider and a finite state machine (FSM) to control the stepper motor. The clock divider slows down the clock so the motor moves at a slower speed. The FSM controls the order of the motor outputs. The direction input determines whether the motor rotates clockwise or counterclockwise, and the enable input controls when the motor runs. The top module connects everything together.
 
-Provide links to the relevant design files:
-
-- **Design source:** [Link]
-- **Testbench:** [Link]
-- **Constraints (XDC):** [Link]
-
-Include relevant code snippets where appropriate.
+- **Design source:**
+https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project3/Stepper_Controller.vhd
+https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project3/stepper_motor_FSM.vhd
+https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project3/clk_div.vhd
+  
+- **Testbench:**
+  https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project3/steppermotorFSM_tb.vhd
+  
+- **Constraints (XDC):** 
+https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/project3/stepper_m.xdc
 
 ## 4. Simulation
 
 Present simulation waveforms covering all required test scenarios.
 
-For each scenario, explain:
-- What was tested
-- Expected behaviour
-- Observed results
-- Any discrepancies and their resolution
+
+
+
+
+
+
 
 ## 5. Hardware
 
