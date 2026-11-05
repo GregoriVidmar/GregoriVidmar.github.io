@@ -26,7 +26,7 @@ Provide links to the relevant design files:
   https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/count_display_tb.vhd
   https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/modMcounter_tb.vhd
   
-- **Constraints (XDC):** [Link]
+- **Constraints (XDC):** 
 https://github.com/GregoriVidmar/GregoriVidmar.github.io/blob/main/projects/lab7.xdc
 
 ## 4. Simulation
