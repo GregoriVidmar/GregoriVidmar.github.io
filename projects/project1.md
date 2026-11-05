@@ -51,7 +51,7 @@ The design was successfully synthesized in Vivado. The resource utilization repo
 **Hardware Testing:**
 The project was physically tested on the Basys3 FPGA board. I used the switches to change the four inputs and observed the LED output. The warning light turned on when the required conditions were met and turned off when they were not. The physical results matched the expected behaviour.
 
-Discuss:
+## 6. Reflection
 
 - I did not run into any major technical challenges during this project. Most of the work was learning how to use Vivado and understanding the different steps involved in creating and implementing a VHDL design.
 - I learned how to work with Vivado, write VHDL code, create a testbench, run simulations, and implement my design on the Basys3 board.
