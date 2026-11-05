@@ -46,6 +46,7 @@ Shows how the clock divider and stepper motor FSM are connected together and how
   <img width="1201" height="416" alt="image" src="https://github.com/user-attachments/assets/23ea360b-8674-4f62-893e-d86be36c8d9f" />
 
 - **Implementation:** This shows the final layout of the design after it was implemented on the FPGA. It shows how the different components were placed and connected on the board.
+- 
   <img width="351" height="542" alt="image" src="https://github.com/user-attachments/assets/a1d5b951-7621-4c21-a5c7-0a33136ee9f7" />
 
 - **Resource utilization:** The resource utilization report shows how much of the FPGA's resources were used by the design. It used 26 LUTs, 22 registers, 12 slices, and 8 I/O pins. Overall, the design uses a small amount of the available FPGA resources.
